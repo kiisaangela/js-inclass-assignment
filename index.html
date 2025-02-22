@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Dynamic Application</title>
+        <link rel="stylesheet" href="general_styles.css">
+        <script src="action_it.js" defer></script>
+    </head>
+    <body onload="greet()">
+        <button onclick="alert('Hello World')">Click me</button>
+        <button id="click">Internal Javascript Click</button>
+<hr>
+        <p id="text">This is the first HTML, CSS, and Javascript Fusion</p>
+        <button id="toggleText">Change Text</button>
+        <hr>
+        <button id="clickbg">Change background</button>
+<hr>
+        
+        <label for="colorInput">Enter a color:</label>
+        <input type="text" id="colorInput" >
+        <button id="changeBg">Change</button>
+        <p id="errorMessage">Invalid color!</p>
+        <p id="defaultMessage">Null color! Returned to default </p>
+<hr>
+        <p>Pick a color:</p>
+        <input type="color" id="colorPicker">
+        <p>Selected Color: <span id="colorValue">#000000</span></p>
+    </body>
+</html>
