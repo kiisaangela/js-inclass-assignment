@@ -1,0 +1,11 @@
+body{
+    background-color: lightblue;
+}
+
+#errorMessage{
+    display: none;
+}
+
+#defaultMessage{
+    display: none;
+}
